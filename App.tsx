@@ -1,9 +1,9 @@
-import {ROUTER} from './src/constant/enums';
+import {ROUTER} from './src/constants/enums';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import React from 'react';
-import {Home} from './src/screens/Home';
-import {BaseGallery} from './src/screens/BaseGallery/index';
+import {BaseGallery, Home} from '@screens';
+
 const Stack = createNativeStackNavigator();
 const App = () => {
   return (

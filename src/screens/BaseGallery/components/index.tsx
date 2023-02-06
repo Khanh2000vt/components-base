@@ -111,9 +111,14 @@ export const BaseGalleryComponent = (props: IGalleryProps) => {
         scrollEnabled={file?.length > 1}
         pagingEnabled
         nestedScrollEnabled
-        renderItem={({item}) => {
+        renderItem={({item, index}) => {
           return (
-            <View style={[styles.button, pageStyle]}>
+            <View
+              style={[
+                styles.button,
+                pageStyle,
+                {backgroundColor: index % 2 ? 'red' : 'green'},
+              ]}>
               <TouchableOpacity
                 onPress={() => onPressItem(item)}
                 activeOpacity={1}>

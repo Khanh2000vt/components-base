@@ -1,5 +1,4 @@
 // import {listNavigation} from '@constants';
-import {ILink, listNavigation} from '../../constant';
 import React from 'react';
 import {
   FlatList,
@@ -9,6 +8,7 @@ import {
   View,
 } from 'react-native';
 import {useNavigation} from '@react-navigation/native';
+import {ILink, listNavigation} from '@constants/index';
 
 export const Home = () => {
   const navigation = useNavigation<any>();

@@ -19,7 +19,7 @@ const file = [
 
 export const BaseGallery = () => {
   return (
-    <View>
+    <View style={{paddingHorizontal: 20}}>
       <BaseGalleryComponent
         file={file}
         onDoubleTap={item => console.log('Pressed onDoubleTap: ', item)}

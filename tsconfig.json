@@ -19,7 +19,7 @@
       "@assets/*": ["assets/*"],
       "@api/*": ["src/api/*"],
       "@components/*": ["src/components/*"],
-      "@constant": ["src/constant/*"],
+      "@constants": ["src/constants/*"],
       "@firebase/*": ["src/firebase/*"],
       "@helper/*": ["src/helper/*"],
       "@hooks/*": ["src/hooks/*"],

@@ -156,10 +156,10 @@ export const styles = StyleSheet.create({
   },
   scroll: {
     flexGrow: 1,
-    width: deviceWidth - 30,
+    width: deviceWidth - 40,
   },
   button: {
-    width: deviceWidth - 30,
+    width: deviceWidth - 40,
     // flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
