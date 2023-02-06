@@ -1,0 +1,1 @@
+export {BaseGalleryComponent} from './BaseGallery';
