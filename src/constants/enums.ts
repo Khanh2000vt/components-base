@@ -1,4 +1,5 @@
 export enum ROUTER {
   APP_GALLERY = 'APP_GALLERY',
   INPUT_FORMIK = 'INPUT_FORMIK',
+  MODAL = 'MODAL',
 }

@@ -44,7 +44,7 @@ export const BaseGallery = () => {
 
 const DoubleTapElement = () => (
   <Image
-    source={require('./components/heart.png')}
+    source={require('@components/BaseGallery/heart.png')}
     style={{width: 40, height: 40}}
   />
 );

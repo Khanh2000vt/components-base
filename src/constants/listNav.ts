@@ -12,4 +12,5 @@ export const listNavigation: ILink[] = [
     label: 'Base Input Formik',
     route: ROUTER.INPUT_FORMIK,
   },
+  {label: 'Base Modal', route: ROUTER.MODAL},
 ];
